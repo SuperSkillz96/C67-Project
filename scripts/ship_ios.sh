@@ -9,3 +9,4 @@ curl -o app.ipa "$(exp url:ipa --non-interactive)"
 
 # This step assumes you have the following environment variables set
 fastlane deliver --verbose --ipa "app.ipa" --skip_screenshots --skip_metadata --user "flaqueeau@gmail.com" --team_name "Evan Conrad"
+# Test
